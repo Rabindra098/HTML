@@ -1,0 +1,13 @@
+
+body{
+    background-color: aqua;
+}
+a{
+    color: rgb(240, 14, 29);
+}
+input{
+    color: darkmagenta;
+}
+:placeholder-shown{
+    background-color: crimson;
+}
