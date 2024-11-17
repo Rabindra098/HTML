@@ -1,0 +1,14 @@
+HTML(Hyper Text Markup language):
+
+    HTML is used for structure/skelenton of a web page.
+    HTML started by Tim Barner's Lee.
+    GML ----> SGML ----> HTML. Current version of HTML is HTML5.
+HTML consists of tags. tags are represented in two ways .
+            i-  open tag (<tagname>).
+            ii- close tag(</tagname>)
+Whole HTML code is between HTML open and close tag. HTML contains two 
+elements such as headd and body. head also contains title.
+
+We can generate basic templete using emmets such as (!+enter), (html:5).
+The gap on left of elements to make code more readable is khown as indentation.
+

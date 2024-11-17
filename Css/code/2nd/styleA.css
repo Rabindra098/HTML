@@ -3,11 +3,11 @@ body{
     background-color: aqua;
 }
 a{
-    color: rgb(240, 14, 29);
+    color: rgb(223, 12, 20);
 }
 input{
     color: darkmagenta;
 }
 :placeholder-shown{
-    background-color: crimson;
+    background-color: rgb(53, 243, 15);
 }

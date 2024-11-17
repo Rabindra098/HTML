@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Form</title>
+</head>
+<body>
+    <h3>Form</h3>
+    <form action="ClassA.java">
+        <div>
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname" placeholder="E.g- Rabindra"/>
+        </div><br>
+        <div>
+            <label for="mname">Middle Name:</label>
+            <input type="text" id="mname" name="mname" placeholder="E.g- Kumar">
+        </div><br>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="E.g- Sahoo">
+        </div><br>
+        <div>
+            <label for="Course">Cource:</label>
+            <select>
+            <option value="Course">--select--</option> 
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>
+            <option value="BSc">BSc</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+            </select>
+            <label for="BCA">BCA</label>
+            <select>
+                <option value="">--select--</option>
+                <option value="IT">IT</option>
+                <option value="DA">DA</option>
+                <option value="CyS">CyS</option>
+                <option value="AI & ML">AI & ML</option>
+            </select>
+        </div>
+        <div>
+            <p>Select Gender:</p>
+            <label for="gender"></label>
+            <input type="radio" name="gender" id="male"> Male
+            <input type="radio" name="gender" id="Female"> Female
+            <input type="radio" name="gender" id="Other"> Other
+        </div><br>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" name="dob">
+        </div><br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" size="1" min="18" max="35" autocomplete="bday">
+        </div><br>
+        <div>
+            <label for="col">Feb Colour:</label>
+            <input type="color" name="" id="col" name="col">
+        </div><br>
+        <div>
+            <label for="doc">Uplode Document:</label>
+            <input type="file" name="doc" id="doc">
+        </div><br>
+        <div>
+            <label for="lang">Select Language:</label>
+            <input type="checkbox"  name="Eng" id="lang">Eng
+            <input type="checkbox" name="hind" id="lang">Hindi
+            <input type="checkbox" name="Odia" id="lang">Odia
+            <input type="checkbox" name="telugu" id="lang">Telugu
+        </div><br>
+        <div>
+        <label for="num">Phone :</label>
+        <input type="text" name="country code" value="+91" size="1" readonly/>
+        <input type="text" name="phone" size="7" placeholder="0000000000" maxlength="10"> 
+        </div><br>
+        <div>
+            <label for="add">Address:</label><br>
+            <input type="text" size="80">  
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" size="30"/>
+        </div><br>
+        <div>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" name="uname">
+        </div><br>
+        <div>
+            <label for="pas">Password:</label>
+            <input type="password" id="pas" name="pas" size="20"/>
+        </div><br>
+        <div>
+            <label for="Re-type">Re-type Password:</label>
+            <input type="password" id="Re-type" name="Re-type" size="20"/>
+        </div><br>
+        <div>
+            <label for="img">Uplode Your Passport Size Photo :</label><br>
+            <pre>                                          <input type="image" src="https://visafoto.com/img/passport-photo-original7.jpg" alt="img" height="100" width="100"></pre>
+        </div><br>
+        <input type="reset" name="reset" id="reset">
+        <input type="button" value="Submit"/> 
+    </form>
+</body>
+</html>
