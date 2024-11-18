@@ -1,12 +1,42 @@
+
+/*
 body{
+    
     height: 100vh;
-    /*background :radical-gradient(orange,white,green,
+    //background :radical-gradient(orange,white,green,
     orange,white,green,orange,white,green,orange,white,
-    green,orange,white,green,orange,white,green)*/
+    green,orange,white,green,orange,white,green)//
+    
     background-image: url('./image.png');
-    background-color: rgba(251, 9, 9, 0.7);
+    background-color: rgba(52, 73, 159, 0.7);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     color: white;
-}
+    }
+*/
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/05/84/65/40/360_F_584654097_iC7ONoJ9Z4V7DCO23Y3dy3aq1Idofegu.jpg');
+    background-repeat: no-repeat;
+    background-color: rgba(52, 73, 159, 0.7);
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: unset;
+    font-size: 10px;
+    text-align: center;
+    text-decoration:wavy;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-shadow: 5px 5px rgb(124, 135, 128);
+    text-decoration-color:rgb(140, 173, 137) ;
+    background-position: center center;
+    color: rgb(9, 0, 0);
+    background-size: cover;
+    height: 100vh;
+    }
+.box{
+    background-color: aqua;
+    height: 2.5rem; /* 1 em = 1 time of parent font size
+                       1 rem = 16px */
+    width: 50%;
+    }
