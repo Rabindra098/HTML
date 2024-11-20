@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: 2px wavy black  underline;
+    text-shadow: 2px saddlebrown;
+}
+p{
+    color: brown;
+    font-size: small;
+}
+img{
+    border: rgb(118, 12, 12) ;
+    padding: 5px;
+    margin: 5px;
+}
+.x{
+    float: right;
+}
+.y{
+    float: left;
+}
