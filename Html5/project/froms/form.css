@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+#formimg{
+   border-radius: 100px;
+}
+
+#formimg:hover{
+    border-radius: 0px;
+    transition: 0.5s ease;
+}

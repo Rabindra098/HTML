@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in Form</title>
+    <link rel="stylesheet" href="./form.css">
 </head>
 <body>
     <h3>Form</h3>
     <form action="ClassA.java">
-        <div>
+        <div class="1st">
             <label for="fname">First Name: </label>
             <input type="text" id="fname" name="fname" placeholder="E.g- Rabindra"/>
         </div><br>
@@ -98,7 +99,7 @@
         </div><br>
         <div>
             <label for="img">Uplode Your Passport Size Photo :</label><br>
-            <pre>                                          <input type="image" src="https://visafoto.com/img/passport-photo-original7.jpg" alt="img" height="100" width="100"></pre>
+            <pre>                                          <input type="image"  id="formimg" src="https://visafoto.com/img/passport-photo-original7.jpg" alt="img" height="100" width="100"></pre>
         </div><br>
         <input type="reset" name="reset" id="reset">
         <input type="button" value="Submit"/> 
