@@ -71,5 +71,5 @@ let sub1 = function (a,b)
 }
 console.log(sub(10-20))
 //or//
-let sub3=(a,b)
+let sub3=(x,y)
 console.log(sub(18,78))
